@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheluve Gowda N UI UX | Python Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+
+
+
+<body>
+
+    <div id="header">
+
+        <div class="container">
+            <nav>
+                <img src="image/logo.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>UI UX Designer | Developer</p>
+                <h1>Hi, I'm <span>Cheluve Gowda N</span> <br>From Bangalore</h1>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- about? -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"><img src="image/me.jpg" alt=""></div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>BCA studenet passionate about UI/UX Designer, currently enhancing skills in user-centered design
+                        principles, wireframing, and prototyping. Eager to apply creativitty and technical knowledge to
+                        buid intuitive digital experiences.</p>
+
+
+                    <div class="tag-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links " onclick="opentab('experiences')">Experiences</p>
+                        <p class="tab-links " onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li><br>
+                            <li><span>Web Development</span><br>Web app Development</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experiences">
+                        <ul>
+                            <li><span>Feb-2025 - May-2025</span><br>UI/UX Designer <br>Intern at Scontitent Pvt Ltd
+                            </li><br>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020</span><br>KSEEB
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                81%</li><br>
+
+
+                            <li><span>2022 MEBA</span><br>KSSEEB, MEBA, MESMPL College
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                51%</li>
+
+                            <li><span>2025</span><br>BCA, GFGC Vijayaganara, Bangaluru Unversity
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7.5
+                                CGPA</li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- services -->
+
+
+    <div class="services" id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+
+                <div>
+                    <i class="fa-brands fa-figma"></i>
+                    <h2>UI/UXDesign</h2>
+                    <p>I’m a passionate UI/UX Designer with a strong foundation in user-centered design. I’ve worked on
+                        a few real-world
+                        projects that reflect my skills in creating clean, intuitive, and responsive user interfaces.
+                    </p>
+                    <a href="#">Learn
+                        More</a>
+                </div>
+
+
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>I am a Python Full Stack Developer with experience in building dynamic, responsive web
+                        applications. I’ve worked on a
+                        few projects where I handled both frontend and backend development, using tools like HTML, CSS,
+                        JavaScript, Python,
+                        Flask, and MySQL.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Portfolio -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+
+            <div class="work-list">
+                <!-- work1 -->
+                <div class="work">
+                    <img src="image/Screenshot 2025-06-13 151114.png" alt="">
+                    <div class="layer">
+                        <h3>E-shop App UI Design</h3>
+                        <p>This is a UI design for an e-commerce application, showcasing a clean and modern interface
+                            with user-friendly navigation.</p>
+                        <a href="https://www.figma.com/design/y62H0Hm1ZT6IFKavU6EkfI/Untitled?node-id=1-5&t=KV98ucxoQAguquFQ-1"
+                            target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+
+
+                <!-- work2 -->
+
+                <div class="work">
+                    <img src="image/gostride.jpeg" alt="">
+
+                    <div class="layer">
+                        <h3>GoStride App UI Design</h3>
+                        <p>This is a UI design for a fitness application, featuring a sleek and engaging interface that
+                            motivates users to achieve their fitness goals.</p>
+                        <a href="https://www.figma.com/design/y62H0Hm1ZT6IFKavU6EkfI/Untitled?node-id=0-1&t=KV98ucxoQAguquFQ-1"
+                            target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+
+                <!-- work3 -->
+
+                <div class="work">
+                    <img src="image/mockrocket-capture.png" alt="">
+                    <div class="layer">
+                        <h3>Job Portal Web App UI Design</h3>
+                        <p>A Job Portal Website is a digital platform where job seekers find their dream jobs and
+                            employers discover the right
+                            candidates to fulfill their hiring needs</p>
+                        <a href="https://www.figma.com/design/y62H0Hm1ZT6IFKavU6EkfI/Untitled?node-id=1-6&t=KV98ucxoQAguquFQ-1"
+                            target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+
+                <!-- work4 -->
+                <div class="work">
+                    <img src="image/ai.png" alt="">
+                    <div class="layer">
+                        <h3>AI Resume Builder Web</h3>
+                        <p>An AI Resume Builder is a smart web application where job seekers create professional,
+                            personalized resumes using
+                            artificial intelligence — helping them stand out and land their dream job.</p>
+                        <a href="https://cheluvegowda.github.io/repo/" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+            </div>
+
+            <a href="" class="btn">See More</a>
+        </div>
+    </div>
+
+
+    <!-- Contact -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>cheluveg07@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>8073012799</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/_chandu__beatzz__/"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/cheluve-gowda-n-8b86a3254/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/cheluvegowda"><i class="fa-brands fa-github"></i></a>
+
+                    </div>
+                    <a href="cheluvgowda uiux..pdf" download class="btn btn2">Download CV</a>
+                </div>
+
+
+                <div class="contact-right"></div>
+                <form action="" name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="CheluveGowda" required>
+                    <input type="email" name="Email" placeholder="cheluveg07@gmail.com" required>
+                    <textarea name="Message" rows="6" placeholder="message"></textarea>
+
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>copyright @ Cheluvegowda. <i class="fa-solid fa-heart"></i> Portfolio</p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbygh3SEWknD5iVtF1dmBv4C689hcCQcATmpPEeoeGS2jDHVJ-lFOdV-OoBzEe7CSJ4VkQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message Sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
